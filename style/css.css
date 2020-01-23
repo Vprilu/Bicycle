@@ -392,4 +392,33 @@ footer {
 
 @media screen and (max-width: 1080px) {
   .slogan .text {
+    width: auto; }
+  .reviews .owl-carousel .item p {
+    height: auto;
     width: auto; } }
+
+@media screen and (max-width: 650px) {
+  .header {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .header .logo {
+      display: none; }
+  .contact form button {
+    margin-left: 39%;
+    margin-top: 3%; }
+  .contact form input {
+    margin-left: 5%; } }
+
+@media screen and (max-width: 500px) {
+  .header {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .header .point {
+      margin-left: 10px;
+      margin-right: 10px; }
+    .header .header__shop {
+      margin-left: 14px; } }
