@@ -422,3 +422,12 @@ footer {
       margin-right: 10px; }
     .header .header__shop {
       margin-left: 14px; } }
+
+@media screen and (max-width: 470px) {
+  .contact form input {
+    width: 80%; }
+  .footer .wrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .shop__button form .button {
+    width: 90%; } }

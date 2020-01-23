@@ -416,3 +416,26 @@ flex-wrap: wrap;
 	}
 }
 }
+
+@media screen and (max-width: 470px){
+.contact{
+	form{
+		input{
+			width: 80%;
+		}
+	}
+}
+
+.footer{
+	.wrapper{
+		flex-wrap: wrap;
+	}
+}
+
+.shop__button{
+	form{
+		.button{
+		width: 90%;
+	}}
+}
+}
