@@ -119,6 +119,7 @@ header{
 }
 
 .reviews{
+	padding-bottom: 30px;
 	.owl-carousel{
 	.item{
 		display: flex;
@@ -156,7 +157,6 @@ header{
 	img:hover, p:hover, h2:hover{
 	 cursor: pointer;
 }
-height: 469px;
 background-color: #f7f7f7;
 }
 
@@ -344,4 +344,8 @@ line-height: 17.87px;
 			opacity: 1;
 		}
 	}
+}
+
+.scripts{
+	display: none;
 }
