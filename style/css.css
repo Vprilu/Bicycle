@@ -6,11 +6,14 @@ a {
   text-decoration: none; }
 
 body {
+  width: 100%;
   background-color: #222429; }
 
 header {
   height: 800px;
-  background-image: url("../img/header.png");
+  background: url("../img/header.png") no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,6 +89,7 @@ header {
     text-align: center; }
 
 .bicycle {
+  overflow: hidden;
   background-color: #f7f7f7; }
   .bicycle .block1, .bicycle .block2, .bicycle .block3 {
     display: -webkit-box;
@@ -129,7 +133,6 @@ header {
         margin-top: 95px; }
 
 .reviews {
-  padding-bottom: 30px;
   background-color: #f7f7f7; }
   .reviews .owl-carousel .item {
     display: -webkit-box;
@@ -168,6 +171,7 @@ header {
     cursor: pointer; }
 
 .shop {
+  overflow: hidden;
   height: 534px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -376,3 +380,16 @@ footer {
 
 .scripts {
   display: none; }
+
+@media screen and (max-width: 1600px) {
+  .block1, .block2, .block3 {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .shop {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: auto; } }
+
+@media screen and (max-width: 1080px) {
+  .slogan .text {
+    width: auto; } }
